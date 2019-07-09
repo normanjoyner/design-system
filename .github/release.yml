@@ -1,0 +1,7 @@
+enabled: true
+label: type/release
+changelog:
+  ignoredLabels:
+    - type/release
+  sections:
+    components: type/component

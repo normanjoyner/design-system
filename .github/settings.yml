@@ -1,0 +1,51 @@
+repository:
+  name: design-system
+  description: Containership Design System
+  topics: design-system
+  private: false
+  has_issues: true
+  has_projects: false
+  has_wiki: false
+  has_downloads: true
+  default_branch: master
+  allow_squash_merge: false
+  allow_merge_commit: false
+  allow_rebase_merge: true
+
+labels:
+  - name: status/awaiting-feedback
+    description: Awaiting Feedback
+    color: ffcd00
+  - name: status/stale
+    description: Stale Issue
+    color: ffcd00
+  - name: status/blocked
+    description: Blocked
+    color: ffcd00
+  - name: status/do-not-merge
+    description: Do not merge
+    color: ffcd00
+  - name: status/needs-triaged
+    description: Needs Triaged
+    color: ffcd00
+  - name: status/wip
+    description: Work in progress
+    color: ffcd00
+  - name: type/component
+    description: Design System Component
+    color: 00f4cb
+  - name: type/maintenance
+    description: Maintenance
+    color: 00f4cb
+  - name: type/optimization
+    description: Optimization
+    color: 00f4cb
+  - name: type/question
+    description: General Question
+    color: 00f4cb
+  - name: type/release
+    description: Version Release
+    color: 00f4cb
+  - name: Epic
+    description: An Epic
+    color: ffffff
